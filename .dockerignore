@@ -1,0 +1,13 @@
+Dockerfile
+.dockerignore
+.git
+.gitignore
+node_modules
+npm-debug.log
+assets
+src
+Makefile
+tsconfig.json
+.eslintrc*
+.editorconfig
+README.md

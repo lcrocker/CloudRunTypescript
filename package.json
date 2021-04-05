@@ -1,0 +1,38 @@
+{
+  "name": "ota_server",
+  "version": "0.1.0",
+  "description": "Google cloud run instance for serving OTA firmware updates",
+  "private": true,
+  "main": "ota.js",
+  "scripts": {
+    "start": "node ota.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "mode": ">= 12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansync-AirOasis/SW_ota_server.git"
+  },
+  "author": "Lee Daniel Crocker <lee@ansync.com>",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Ansync-AirOasis/SW_ota_server/issues"
+  },
+  "homepage": "https://github.com/Ansync-AirOasis/SW_ota_server#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "firebase-admin": "^9.6.0",
+    "typescript": "^4.1.5"
+  },
+  "dependencies": {
+    "@google-cloud/storage": "^5.8.3",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
