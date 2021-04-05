@@ -1,1 +1,1 @@
-Google run instance with Typescript
+Google Cloud Run instance with Typescript, eslint, etc.
